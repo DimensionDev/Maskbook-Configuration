@@ -1,6 +1,7 @@
 [
   {
     "name": "ConstitutionDAO",
+    "logo": "https://jbx.mypinata.cloud/ipfs/QmeBqesmJ2Ch8opZGnY1vGhYhnXDZrsY48RXQoq1WczqL1",
     "media": {
       "id": "@constitutiondao",
       "website": "https://constitutiondao.com",
@@ -87,7 +88,7 @@
     "funding_cycle": {
       "current": {
         "target": "9000000000000000000",
-        "Reserved": 1,
+        "reserved": 1,
         "duration": null,
         "discount": 0.3,
         "$people": "0",

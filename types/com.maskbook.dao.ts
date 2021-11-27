@@ -49,6 +49,7 @@ type FundingCycle= {
 
 type Schema = {
   name: string;
+  logo: string;
   media: Media;
   description: string;
   valume: BNString;
