@@ -1,0 +1,108 @@
+[
+  {
+    "name": "ConstitutionDAO",
+    "media": {
+      "id": "@constitutiondao",
+      "website": "https://constitutiondao.com",
+      "twitter": "https://twitter.com/ConstitutionDAO",
+      "discord": "https://discord.gg/EPJnNkP8MX"
+    },
+    "description": "We are buying the United States Constitution.",
+    "valume": "11607000000000000000000",
+    "in_juicebox": "5182440000000000000000",
+    "in_wallet": "543300000000000000000",
+    "volume_track": [
+      { "datetime": 1638036171632, "value": "116700000000000000000" },
+      { "datetime": 1638032571632, "value": "116700000000000000000" },
+      { "datetime": 1638028971632, "value": "116700000000000000000" },
+      { "datetime": 1638025371632, "value": "116700000000000000000" },
+      { "datetime": 1638021771632, "value": "116700000000000000000" },
+      { "datetime": 1638018171632, "value": "116700000000000000000" },
+      { "datetime": 1638014571632, "value": "116700000000000000000" },
+      { "datetime": 1638010971632, "value": "116700000000000000000" },
+      { "datetime": 1638007371632, "value": "116700000000000000000" },
+      { "datetime": 1638003771632, "value": "1160700000000000000000" },
+      { "datetime": 1638000171632, "value": "1160700000000000000000" },
+      { "datetime": 1637996571632, "value": "1160700000000000000000" },
+      { "datetime": 1637992971632, "value": "1160700000000000000000" },
+      { "datetime": 1637989371632, "value": "1160700000000000000000" },
+      { "datetime": 1637985771632, "value": "1160700000000000000000" },
+      { "datetime": 1637982171632, "value": "11607000000000000000000" },
+      { "datetime": 1637978571632, "value": "11607000000000000000000" },
+      { "datetime": 1637974971632, "value": "11607000000000000000000" },
+      { "datetime": 1637971371632, "value": "11607000000000000000000" },
+      { "datetime": 1637967771632, "value": "11607000000000000000000" },
+      { "datetime": 1637964171632, "value": "11607000000000000000000" },
+      { "datetime": 1637960571632, "value": "11607000000000000000000" },
+      { "datetime": 1637956971632, "value": "11607000000000000000000" },
+      { "datetime": 1637953371632, "value": "11607000000000000000000" },
+      { "datetime": 1637949771632, "value": "11607000000000000000000" },
+      { "datetime": 1637946171632, "value": "11607000000000000000000" },
+      { "datetime": 1637942571632, "value": "11607000000000000000000" },
+      { "datetime": 1637938971632, "value": "11607000000000000000000" },
+      { "datetime": 1637935371632, "value": "11607000000000000000000" },
+      { "datetime": 1637931771632, "value": "11607000000000000000000" }
+    ],
+    "$people_tokens": {
+      "address": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
+      "total_supply": "5181937054"
+    },
+    "activities": [
+      {
+        "action": "pay",
+        "address": "0x2f05cd42ed9a2438ce5871443e0e1e01c5980c72",
+        "payload": 2000000000000000,
+        "timestamp": 1637931771632,
+        "message": "Hello",
+        "media": null
+      },
+      {
+        "action": "redeem",
+        "payload": 4000000000000000,
+        "address": "0x2f05cd42ed9a2438ce5871443e0e1e01c5980c72",
+        "timestamp": 1637931771632,
+        "message": "Why did you leave us!",
+        "media": {
+          "type": "image",
+          "url": "https://jbx.mypinata.cloud/ipfs/QmYPLMR3Frbfqqh28sKi3K8AMHqUXZPDZmrWsU7heV2pp9"
+        }
+      },
+      {
+        "action": "withdraw",
+        "payload": 4000000000000000,
+        "address": "0x2f05cd42ed9a2438ce5871443e0e1e01c5980c72",
+        "timestamp": 1637931771632,
+        "message": "Whoever cannot destroy me will make me strong. — Danny Wang-641219\n",
+        "media": null
+      },
+      {
+        "action": "reserves",
+        "payload": 4000000000000000,
+        "address": "0x2f05cd42ed9a2438ce5871443e0e1e01c5980c72",
+        "timestamp": 1637931771632,
+        "message": "Whoever cannot destroy me will make me strong. — Danny Wang-641219\n",
+        "media": null
+      }
+    ],
+    "funding_cycle": {
+      "current": {
+        "target": "9000000000000000000",
+        "Reserved": 1,
+        "duration": null,
+        "discount": 0.3,
+        "$people": "0",
+        "bonding_curve": 1,
+        "address": "0x0000000000000000000000000000000000000000",
+        "description": "Any reconfiguration to an upcoming funding cycle will take effect once the current cycle ends. A project with no strategy may be vulnerable to being rug-pulled by its owner.",
+        "available": "0",
+        "withdrawn": "0",
+        "owner_balance": "0",
+        "reserved_$people": {
+          "address": "0xb1C95AC257029D11F3f64ac67b2307A426699322",
+          "rate": 1
+        }
+      },
+      "list_ids": ["1", "2", "3"]
+    }
+  }
+]
