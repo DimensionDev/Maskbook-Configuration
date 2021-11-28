@@ -141,7 +141,7 @@ async function crawlProjects() {
       };
       if (combined.twitter) {
         fs.writeFile(
-          `./development/com.maskbook.dao.${combined.twitter}.json`,
+          `./development/com.maskbook.dao-${combined.twitter.toLowerCase()}.json`,
           JSON.stringify(combined, null, 2)
         );
         data.push(combined);
