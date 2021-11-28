@@ -141,6 +141,7 @@ async function crawlProjects() {
       };
       const key = (combined.name ?? combined.id ?? "")
         .toLowerCase()
+        .trim()
         .replace(/ /g, "-");
       fs.writeFile(
         `./development/com.maskbook.dao.${key}.json`,
