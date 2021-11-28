@@ -16,5 +16,6 @@
   "tokens": [],
   "version": 3,
   "payButton": "Contribute",
-  "payDisclosure": "Please see kanyebeardao.com for details of this DAO"
+  "payDisclosure": "Please see kanyebeardao.com for details of this DAO",
+  "overflow": null
 }

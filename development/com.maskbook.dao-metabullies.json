@@ -16,5 +16,6 @@
   "payButton": "",
   "payDisclosure": "",
   "tokens": [],
-  "version": 3
+  "version": 3,
+  "overflow": null
 }

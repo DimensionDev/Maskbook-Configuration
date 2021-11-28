@@ -1,10 +1,10 @@
 {
   "createdAt": "1638001936",
   "creator": "0xbc74cc61c131205e1d71db1854bf25c83c0355e8",
-  "currentBalance": "0",
+  "currentBalance": "1000000000000000000",
   "handle": "0x6172747365637464616f00000000000000000000000000000000000000000000",
   "id": "76",
-  "totalPaid": "0",
+  "totalPaid": "1000000000000000000",
   "totalRedeemed": "0",
   "uri": "QmZGVDTdrQ6ZxUbHmxnVtZRJwQBCV6oUZ9qPQoWsMNpo6c",
   "name": "ArtSect NFT Gallery",
@@ -16,5 +16,6 @@
   "tokens": [],
   "version": 3,
   "payButton": "Donate",
-  "payDisclosure": "Congratulations and welcome to the #DecentralizedArtsMovement \n\nArtSect DAO is the catalyst Decentralized Arts Organization dedicated to our open community of Artists, Curators and Patron's. \n\nTogether we will shape the future of Art's & Culture for our new Digital Renaissance. Come and join us on our DAO Discord🧞‍♀️"
+  "payDisclosure": "Congratulations and welcome to the #DecentralizedArtsMovement \n\nArtSect DAO is the catalyst Decentralized Arts Organization dedicated to our open community of Artists, Curators and Patron's. \n\nTogether we will shape the future of Art's & Culture for our new Digital Renaissance. Come and join us on our DAO Discord🧞‍♀️",
+  "overflow": null
 }

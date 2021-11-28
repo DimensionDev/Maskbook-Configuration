@@ -16,5 +16,6 @@
   "tokens": [],
   "version": 3,
   "payButton": "Join",
-  "payDisclosure": "Thank you for supporting freedom of the sea!"
+  "payDisclosure": "Thank you for supporting freedom of the sea!",
+  "overflow": null
 }

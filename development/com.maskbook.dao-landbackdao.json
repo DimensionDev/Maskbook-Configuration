@@ -16,5 +16,6 @@
   "payButton": "",
   "payDisclosure": "10% of all funds raised go towards funding Indigenous artists to create exclusive content for LandBackDAO members",
   "tokens": [],
-  "version": 3
+  "version": 3,
+  "overflow": null
 }

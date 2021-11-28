@@ -16,5 +16,6 @@
   "tokens": [],
   "version": 3,
   "payButton": "F*ck it im in",
-  "payDisclosure": "We cannot guarantee we will win the Kentucky Derby, but at the bare minimum we could probably get at least into the top 4."
+  "payDisclosure": "We cannot guarantee we will win the Kentucky Derby, but at the bare minimum we could probably get at least into the top 4.",
+  "overflow": null
 }

@@ -16,5 +16,6 @@
   "tokens": [],
   "version": 3,
   "payButton": "aurora",
-  "payDisclosure": "Paying AuroraDAO is not an investment—it's a way to support the project. Any value or utility of the tokens you receive is determined by AuroraDAO."
+  "payDisclosure": "Paying AuroraDAO is not an investment—it's a way to support the project. Any value or utility of the tokens you receive is determined by AuroraDAO.",
+  "overflow": null
 }

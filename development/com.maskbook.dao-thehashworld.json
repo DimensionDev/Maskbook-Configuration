@@ -16,5 +16,6 @@
   "tokens": [],
   "version": 3,
   "payButton": "Mint Seed Character NFT(price:0.08ETH)",
-  "payDisclosure": "Welcome to your HashWorld"
+  "payDisclosure": "Welcome to your HashWorld",
+  "overflow": null
 }
