@@ -16,5 +16,9 @@
   "payButton": "Support",
   "payDisclosure": "We minted the first Brazilian Jiu Jitsu belts as NFTs on Ethereum - to bridge awareness of NFTs with a simple, real-world example. Now, we want to bring the practice of Jiu Jitsu to the rest of the world. Perhaps reducing violence is not done through podcasting and audiobooks - instead, let us contain violence - in both meanings of the world 'contain.'",
   "tokens": [],
-  "version": 3
+  "version": 3,
+  "payEvents": [],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }

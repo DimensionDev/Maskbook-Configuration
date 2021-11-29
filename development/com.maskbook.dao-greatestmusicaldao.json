@@ -17,5 +17,15 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "Paying GreatestMusicalDAO is not an investment—it's a way to support the project. Any value or utility of the tokens you receive is determined by GreatestMusicalDao.",
-  "overflow": null
+  "overflow": null,
+  "target": "1000000000000000000000000",
+  "duration": "15 days",
+  "reserved": 0.05,
+  "discount": 0.06,
+  "toETH": 950,
+  "bondingCurve": 0.25,
+  "payEvents": [],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }

@@ -17,5 +17,15 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
-  "overflow": null
+  "overflow": null,
+  "target": "1000000000000000000",
+  "duration": "7 days",
+  "reserved": 0.15,
+  "discount": 0,
+  "toETH": 845,
+  "bondingCurve": 1,
+  "payEvents": [],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }

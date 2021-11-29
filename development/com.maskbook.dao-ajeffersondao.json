@@ -16,5 +16,9 @@
   "tokens": [],
   "version": 3,
   "payButton": "Let's Do It",
-  "payDisclosure": "If we are unable to purchase real estate downtown Fort Worth, we will refund everyone. "
+  "payDisclosure": "If we are unable to purchase real estate downtown Fort Worth, we will refund everyone. ",
+  "payEvents": [],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }

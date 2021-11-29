@@ -16,5 +16,9 @@
   "tokens": [],
   "version": 3,
   "payButton": "Explain It!",
-  "payDisclosure": "Yo yo, while we do have incredible video marketing skills. For now, this is just an experiment on perpetually funding crypto education. As a contributor, you can expect no monetary gain, just governance over what we explain next - oh, and likely an NFT + bragging rights. "
+  "payDisclosure": "Yo yo, while we do have incredible video marketing skills. For now, this is just an experiment on perpetually funding crypto education. As a contributor, you can expect no monetary gain, just governance over what we explain next - oh, and likely an NFT + bragging rights. ",
+  "payEvents": [],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }

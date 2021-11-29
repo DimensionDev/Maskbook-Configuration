@@ -17,5 +17,11 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "",
-  "overflow": null
+  "overflow": null,
+  "duration": "Not set",
+  "reserved": 1,
+  "payEvents": [],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }

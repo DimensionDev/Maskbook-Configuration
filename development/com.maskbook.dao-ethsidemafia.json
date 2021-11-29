@@ -16,5 +16,9 @@
   "payButton": "The World is Ours",
   "payDisclosure": "LFG",
   "tokens": [],
-  "version": 3
+  "version": 3,
+  "payEvents": [],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }

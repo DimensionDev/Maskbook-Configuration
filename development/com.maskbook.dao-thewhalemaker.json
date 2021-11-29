@@ -16,5 +16,9 @@
   "payButton": "Buy Tokens",
   "payDisclosure": "For full terms and conditions please visit: https://www.whalemakernft.com/gamefi-sector-dao",
   "tokens": [],
-  "version": 3
+  "version": 3,
+  "payEvents": [],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }
