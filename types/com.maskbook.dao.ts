@@ -102,6 +102,8 @@ type Schema = {
   discount: PercentRate;
   toETH: BNString;
   bondingCurve: PercentRate;
+  tokenAddress: HexAddress;
+  totalSupply: BNString;
   payEvents: PayEvent[];
   redeemEvents: RedeemEvent[];
   withdrawEvents: WithdrawEvent[];
