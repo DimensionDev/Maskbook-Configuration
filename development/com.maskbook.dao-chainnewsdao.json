@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "Thanks for your support. For ChainNews. ",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -29,7 +28,10 @@
       "bondingCurve": 0.1
     }
   ],
-  "inWallet": "0",
+  "inWallet": {
+    "eth": "0.39",
+    "jbx": "0"
+  },
   "jbx": "0",
   "tokenAddress": null,
   "totalSupply": "1000000",

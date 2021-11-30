@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "CONTRIBUTE",
   "payDisclosure": "Thank you so much for supporting HOLE! This furthers our pursuit of equity, inclusion, and righteous creative expression!",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -31,7 +30,10 @@
       "bondingCurve": 0.5
     }
   ],
-  "inWallet": "0",
+  "inWallet": {
+    "eth": "0.11",
+    "jbx": "0"
+  },
   "jbx": "0",
   "tokenAddress": null,
   "totalSupply": "10615",

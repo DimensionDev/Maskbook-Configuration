@@ -1,10 +1,10 @@
 {
   "createdAt": "1638052885",
   "creator": "0xf5c3bff123277e4d620740c85daaff0af60aef84",
-  "currentBalance": "105807317650000000000",
+  "currentBalance": "105857317650000000000",
   "handle": "0x64616f74616966756e6700000000000000000000000000000000000000000000",
   "id": "89",
-  "totalPaid": "105807317650000000000",
+  "totalPaid": "105857317650000000000",
   "totalRedeemed": "0",
   "uri": "QmYoPy6UjcWgiMNYQu7z5dv2rdRpgShdwwwZFh47LrVnjy",
   "name": "DAOTaiFung",
@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "All funds paid out to a Gnosis safe, 0x5A8413DfEFB75899c93eA5A6152Eb5aFe01A956E.",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -26,11 +25,22 @@
       "reserved": 0.15
     }
   ],
-  "inWallet": "0",
+  "inWallet": {
+    "eth": "0.39",
+    "jbx": "0"
+  },
   "jbx": "0",
   "tokenAddress": "0x1B5CE04a29b115161E22adb92d9cdFce562BaBdD",
-  "totalSupply": "105807318",
+  "totalSupply": "105857318",
   "payEvents": [
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x95131b9190f129bbe2c268804bf39c43e3711ac2",
+      "id": "0xe810e448a608ee7105155458105eeea4e0e5120f6d6c4b16f9a14185bbcdb405-25",
+      "note": null,
+      "timestamp": "1638283833",
+      "txHash": "0xe810e448a608ee7105155458105eeea4e0e5120f6d6c4b16f9a14185bbcdb405"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x180595121ded1321ec9218b2e0c28e3a89bb09d6",
@@ -422,14 +432,6 @@
       "note": "Let's go!",
       "timestamp": "1638126679",
       "txHash": "0xc9ee102d97e051e357b445fa71495a89669f0204867a6633e7869622735ecea1"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x62a81b91bb2bd824c4710aef111c93dc5a467d10",
-      "id": "0x12f6179046e33b573fee9edc2e220cef32acfae5a2d02acf2d1aa441f61071cd-254",
-      "note": "DTF?",
-      "timestamp": "1638118816",
-      "txHash": "0x12f6179046e33b573fee9edc2e220cef32acfae5a2d02acf2d1aa441f61071cd"
     }
   ],
   "redeemEvents": [],

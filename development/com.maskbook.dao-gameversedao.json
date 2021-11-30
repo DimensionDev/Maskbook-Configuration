@@ -17,7 +17,6 @@
   "payDisclosure": "We named it: Gameverse\nYour support will receive the most original token rewards and creation NFT rewards. In other words, you are the owner of Gameverse!",
   "tokens": [],
   "version": 3,
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -29,7 +28,10 @@
       "bondingCurve": 0.1
     }
   ],
-  "inWallet": "0",
+  "inWallet": {
+    "eth": "0.01",
+    "jbx": "0"
+  },
   "jbx": "0",
   "tokenAddress": null,
   "totalSupply": "0",

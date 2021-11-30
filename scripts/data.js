@@ -26,6 +26,9 @@ const twitterIdMap = {
   missapeworlds: "missapeyachtclub",
   ajeffersondao: "jeffersondao",
   beetsdao: "eyez",
+  people_angeldao: "peopleangelsdao",
+  tile_dao: "tiles",
+  ethsidemafia: "nftbluechipsdao",
 };
 
 module.exports = {

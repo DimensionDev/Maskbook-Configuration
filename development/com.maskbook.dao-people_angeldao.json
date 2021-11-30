@@ -1,10 +1,10 @@
 {
   "createdAt": "1638275232",
   "creator": "0xa0ab259af685c67d888a204ec97b8fffa3a6a650",
-  "currentBalance": "3030000000000000000",
+  "currentBalance": "3341000000000000000",
   "handle": "0x70656f706c65616e67656c7364616f0000000000000000000000000000000000",
   "id": "116",
-  "totalPaid": "3030000000000000000",
+  "totalPaid": "3341000000000000000",
   "totalRedeemed": "0",
   "uri": "QmSWHLnXtfaT7wYJjxAMH94j5x9535Fp6e39xCpctKgj96",
   "name": "PeopleAngelsDAO",
@@ -18,6 +18,30 @@
   "payButton": "Contribute",
   "payDisclosure": "$ANGELS token will be provided in return for contributions to PeopleAngelsDAO, serving as governance token in proposals and representing a share in the ownership of the DAO and its assets.",
   "payEvents": [
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x56448d1d3bd05a042a566ce2b45fbc710ed5a52d",
+      "id": "0x87fda1c5fe190acc117fb33e1dd6c3ca281dfdb4cb32ee7d66032362215cbd1a-268",
+      "note": null,
+      "timestamp": "1638284662",
+      "txHash": "0x87fda1c5fe190acc117fb33e1dd6c3ca281dfdb4cb32ee7d66032362215cbd1a"
+    },
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0xc4438399d8a212ea8a5ac27a52effe85355b715b",
+      "id": "0xab56c6c29eeef8e8e9d8351abafd3a87a81a60648dc005fdd56b569b2826b8b5-313",
+      "note": "People!!!!",
+      "timestamp": "1638283613",
+      "txHash": "0xab56c6c29eeef8e8e9d8351abafd3a87a81a60648dc005fdd56b569b2826b8b5"
+    },
+    {
+      "amount": "51000000000000000",
+      "beneficiary": "0xa1357cd9b317cc94f1c8c90bbacc42b6652a7461",
+      "id": "0x27a6cb623900cce553f037bd11afbe77d2f7dbe1737b0cf91e6a992eadc17843-180",
+      "note": null,
+      "timestamp": "1638278663",
+      "txHash": "0x27a6cb623900cce553f037bd11afbe77d2f7dbe1737b0cf91e6a992eadc17843"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0x2c5a635392a4d8609448e22647f40f2d28708755",

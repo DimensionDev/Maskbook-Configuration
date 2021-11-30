@@ -63,6 +63,7 @@ async function closeBrowesr() {
   if (browser) await browser.close();
 }
 
+const notFoundList = [];
 async function crawl(juiceId) {
   const url = baseUrl + juiceId;
   const browser = await launchBrowser();
@@ -76,6 +77,7 @@ async function crawl(juiceId) {
   const content = await contentEl.evaluate((el) => el.textContent);
   if (content.toLowerCase().trim().endsWith("not found")) {
     console.log(`Project ${juiceId} not found`);
+    notFoundList.push(juiceId);
     return null;
   }
   await page.waitForSelector('[aria-label="info-circle"]', {
@@ -107,41 +109,48 @@ async function crawl(juiceId) {
     `Can not found "overflow" in ${juiceId}`
   );
 
-  const volumeEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[2]/div[1]/div/div[1]/span[2]/span[2]'
-  );
-  const volume = volumeEl[0]
-    ? await volumeEl[0].evaluate((el) => el.textContent.slice(1))
-    : null;
-
-  const inJuiceboxEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[2]/div[1]/div/div[2]/div[2]/span'
-  );
-  const inJuicebox = await inJuiceboxEl[0].evaluate((el) =>
-    el.textContent.slice(1)
-  );
-
-  const overflowEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[2]/div[1]/div/div[3]/span/span[1]'
-  );
-  const overflow = overflowEl[0]
-    ? parsePercent(await overflowEl[0].evaluate((el) => el.textContent))
-    : null;
-
-  const inWalletEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[2]/div[1]/div/div[4]/span[2]/span[2]'
-  );
-  const inWallet = inWalletEl[0]
-    ? await inWalletEl[0].evaluate((el) => el.textContent.slice(1))
-    : null;
-
+  // wait for jbx in wallet fetched
   await page.waitForTimeout(5000);
-  const jbxEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[2]/div[1]/div/div[4]/span[2]/span[1]/div/span'
-  );
-  const jbx = jbxEl[0]
-    ? await jbxEl[0].evaluate((el) => el.textContent.split(" ")[0])
-    : null;
+  const summary = await summaryEl.evaluate((sumEl) => {
+    const list = [...sumEl.firstElementChild.firstElementChild.children];
+    const result = {};
+    list.forEach((el) => {
+      const iconEl = el.querySelector(".anticon-info-circle");
+      if (!iconEl) return;
+      const label = iconEl.previousElementSibling.textContent
+        .trim()
+        .toLowerCase();
+      switch (label) {
+        case "volume":
+          result["volume"] = el.lastElementChild.textContent.slice(1);
+          break;
+        case "in juicebox":
+          result["inJuicebox"] =
+            el.lastElementChild.firstElementChild.textContent.slice(1);
+          break;
+        case "distributed":
+          result["distributed"] = el.lastElementChild.textContent
+            .split("/")
+            .map((t) => t.trim());
+          break;
+        case "in wallet":
+          result["inWallet"] = {
+            eth: el.lastElementChild.lastElementChild.textContent.slice(1),
+            jbx: el.lastElementChild.firstElementChild.firstElementChild
+              .firstElementChild.firstChild.textContent,
+          };
+          break;
+        default:
+          const matches = label.match(/(\d+)% overflow/);
+          if (matches) {
+            result["overflow"] = matches[1] / 100;
+          }
+      }
+    });
+    return result;
+  });
+
+  const { volume, inJuicebox, distributed, overflow, inWallet } = summary;
 
   await page.click(".ant-collapse-header");
   await page.waitForTimeout(100);
@@ -253,7 +262,8 @@ async function crawl(juiceId) {
     inJuicebox,
     overflow,
     inWallet: inWallet ?? "0",
-    jbx: jbx ?? "0",
+    jbx: inWallet.jbx ?? "0",
+    distributed,
     fundingCycles: [fundingCycle],
     tokenAddress,
     totalSupply,
@@ -451,6 +461,7 @@ async function crawlProjects() {
     "./development/com.maskbook.dao.json",
     JSON.stringify(data, null, 2)
   );
+  fs.writeFile("./not-found.json", JSON.stringify(notFoundList, null, 2));
 }
 
 crawlProjects();

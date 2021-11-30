@@ -17,7 +17,6 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -31,7 +30,10 @@
       "bondingCurve": 0.1
     }
   ],
-  "inWallet": "0",
+  "inWallet": {
+    "eth": "0.00",
+    "jbx": "0"
+  },
   "jbx": "0",
   "tokenAddress": null,
   "totalSupply": "0",

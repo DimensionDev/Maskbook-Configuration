@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "Please see kanyebeardao.com for details of this DAO",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -29,8 +28,11 @@
       "bondingCurve": 1
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "0.60",
+    "jbx": "64,482"
+  },
+  "jbx": "64,482",
   "tokenAddress": "0xb9A255D352308d3AB3a995c847d3c352498D580b",
   "totalSupply": "1000000",
   "payEvents": [
