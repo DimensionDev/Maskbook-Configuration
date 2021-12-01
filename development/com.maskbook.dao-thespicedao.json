@@ -1,7 +1,7 @@
 {
   "createdAt": "1637295686",
   "creator": "0x1175185e62db6cea2517d14297333a63908c0cac",
-  "currentBalance": "2487140199015955006168",
+  "currentBalance": "178026274033952",
   "handle": "0x737069636564616f000000000000000000000000000000000000000000000000",
   "id": "52",
   "totalPaid": "2608828516120000000000",
@@ -17,6 +17,20 @@
   "payDisclosure": "$SPICE token will be provided in return for contributions to SPICE DAO, serving as governance token in proposals and representing a share in the ownership of the DAO and its assets.",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "duration": "Not set",
+      "reserved": 1
+    }
+  ],
+  "inWallet": {
+    "eth": "2465140000000000000000",
+    "jbx": "0"
+  },
+  "jbx": "0",
+  "tokenAddress": "0x9b6dB7597a74602a5A806E33408e7E2DAFa58193",
+  "totalSupply": "2510791702",
   "payEvents": [
     {
       "amount": "100000000000000000",
@@ -646,6 +660,16 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x1175185e62db6cea2517d14297333a63908c0cac",
+      "beneficiaryTransferAmount": "2487140020989680972216",
+      "caller": "0xb520f068a908a1782a543aacc3847adb77a04778",
+      "fundingCycleId": "216",
+      "id": "52-0x7eed5c120a138147eb7d2241bb9a5a72feeb834346cd21288532b26238c27717",
+      "netTransferAmount": "2487140020989680972216",
+      "timestamp": "1638290337",
+      "txHash": "0x7eed5c120a138147eb7d2241bb9a5a72feeb834346cd21288532b26238c27717"
+    },
     {
       "beneficiary": "0x1175185e62db6cea2517d14297333a63908c0cac",
       "beneficiaryTransferAmount": "50000000000000000000",
