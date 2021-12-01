@@ -1,10 +1,10 @@
 {
   "createdAt": "1638310299",
   "creator": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
-  "currentBalance": "9295000000000000000",
+  "currentBalance": "10715761000000000000",
   "handle": "0x6d6572676564616f000000000000000000000000000000000000000000000000",
   "id": "120",
-  "totalPaid": "9305000000000000000",
+  "totalPaid": "10725761000000000000",
   "totalRedeemed": "0",
   "uri": "QmUwk2MrXTokETjJxJwZ4wi4AnwWBPigLjHngYFqsbxyvE",
   "name": "Merge DAO",
@@ -17,7 +17,38 @@
   "payDisclosure": "All funds are paid out to Gnosis Safe Community Wallet, 0xE3F4654409970C8Bc91143A3e7042EF238564b46",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "duration": "7 days",
+      "start": "12-1-21 6:11am",
+      "reserved": 0.01
+    }
+  ],
+  "inWallet": {
+    "eth": "100000000000000000",
+    "jbx": "111000000000000000000"
+  },
+  "jbx": "111000000000000000000",
+  "tokenAddress": "0xD746bE8BEAca7E636DBAf22492075F1CC42471C1",
+  "totalSupply": "10725761",
   "payEvents": [
+    {
+      "amount": "50761000000000000",
+      "beneficiary": "0x5cfd575b33075b8cd143b610085795299baf7ece",
+      "id": "0x1fc700ca07f07d79db792f26f04359d1b7e062635de4e006c87bb3e9b1d727db-407",
+      "note": "0.050761 ETH = 50.000 MRGE",
+      "timestamp": "1638333359",
+      "txHash": "0x1fc700ca07f07d79db792f26f04359d1b7e062635de4e006c87bb3e9b1d727db"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0xd2628ea414c98b6c93de255504ab3ae050a0521e",
+      "id": "0xa2a059a1db6beba368e46ee11a3dcc03b2adf71a87d8a3de416f270459a1d615-90",
+      "note": "Gm",
+      "timestamp": "1638332590",
+      "txHash": "0xa2a059a1db6beba368e46ee11a3dcc03b2adf71a87d8a3de416f270459a1d615"
+    },
     {
       "amount": "320000000000000000",
       "beneficiary": "0x862cecb76d70714902e244d1ab9985474e9b527a",

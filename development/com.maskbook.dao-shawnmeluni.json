@@ -17,6 +17,26 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "50000000000000000000",
+      "duration": "5 days",
+      "start": "11-28-21 1:10pm",
+      "end": "12-3-21 1:10pm",
+      "reserved": 0.4,
+      "discount": 0.1,
+      "toETH": 600,
+      "bondingCurve": 1
+    }
+  ],
+  "inWallet": {
+    "eth": "270000000000000000",
+    "jbx": "100000000000000000000"
+  },
+  "jbx": "100000000000000000000",
+  "tokenAddress": "0x2Cd0f8DacE506a6240251A09C76769e538595eAB",
+  "totalSupply": "200000",
   "payEvents": [
     {
       "amount": "200000000000000000",
