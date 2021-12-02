@@ -1,10 +1,10 @@
 {
   "createdAt": "1638275232",
   "creator": "0xa0ab259af685c67d888a204ec97b8fffa3a6a650",
-  "currentBalance": "3341000000000000000",
+  "currentBalance": "4441000000000000000",
   "handle": "0x70656f706c65616e67656c7364616f0000000000000000000000000000000000",
   "id": "116",
-  "totalPaid": "3341000000000000000",
+  "totalPaid": "4441000000000000000",
   "totalRedeemed": "0",
   "uri": "QmSWHLnXtfaT7wYJjxAMH94j5x9535Fp6e39xCpctKgj96",
   "name": "PeopleAngelsDAO",
@@ -32,13 +32,29 @@
     }
   ],
   "inWallet": {
-    "eth": "80000000000000000",
+    "eth": "0",
     "jbx": "0"
   },
   "jbx": "0",
   "tokenAddress": "0x0d3849F5864c3a7C4dB4C9C4cF3CB6434b593EBF",
-  "totalSupply": "3341000",
+  "totalSupply": "4441000",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x5629f439bcc9e6b9d75286b4901d781221dfd837",
+      "id": "0x36eb84045e90468f8d93dad9df30a4d3cad128ce62f9f413e87d67f06fa78c3d-51",
+      "note": null,
+      "timestamp": "1638405837",
+      "txHash": "0x36eb84045e90468f8d93dad9df30a4d3cad128ce62f9f413e87d67f06fa78c3d"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xb38a5ded92b4c33252c69efb210f1949c7e654d6",
+      "id": "0xbf31a1cd5e160d10c03d2fc7b6a68c9349597c7d18a8955b1ab1190590ea256a-418",
+      "note": "This project is really great, we can use the MEME community to help children!  ",
+      "timestamp": "1638353378",
+      "txHash": "0xbf31a1cd5e160d10c03d2fc7b6a68c9349597c7d18a8955b1ab1190590ea256a"
+    },
     {
       "amount": "50000000000000000",
       "beneficiary": "0x56448d1d3bd05a042a566ce2b45fbc710ed5a52d",

@@ -1,10 +1,10 @@
 {
   "createdAt": "1638237611",
   "creator": "0x2fc11e3776224d727c74582a1a4044111ac2d159",
-  "currentBalance": "14578000000000000000",
+  "currentBalance": "25754558590000000000",
   "handle": "0x6579657a00000000000000000000000000000000000000000000000000000000",
   "id": "109",
-  "totalPaid": "14578000000000000000",
+  "totalPaid": "25754558590000000000",
   "totalRedeemed": "0",
   "uri": "QmceZ8JwUXUedbFR5xDkmTE77fUygkpeNncUvSvLYCGRQQ",
   "name": "\"Decentral Eyes Dogg\" Decentralized",
@@ -30,8 +30,120 @@
   },
   "jbx": "0",
   "tokenAddress": "0x55654375e56b4474a572c137b42F10993296FC0a",
-  "totalSupply": "14578000",
+  "totalSupply": "25754558",
   "payEvents": [
+    {
+      "amount": "60000000000000000",
+      "beneficiary": "0x9ce07a82eaee12232661c824190ca7331f3c832f",
+      "id": "0xbd0e670c5b27795bdb539ef04f678b84fbecbb5a97d23a7b2a3449dc9226c15e-72",
+      "note": null,
+      "timestamp": "1638415251",
+      "txHash": "0xbd0e670c5b27795bdb539ef04f678b84fbecbb5a97d23a7b2a3449dc9226c15e"
+    },
+    {
+      "amount": "21820920000000000",
+      "beneficiary": "0x56f43ac330fdf7d81d9c9dea041a5790e7340be0",
+      "id": "0x232d9aabf3568649647cb32a9dd2f01efd2eac6b3fd3e7203e6bc5c6f7aaa063-53",
+      "note": null,
+      "timestamp": "1638405549",
+      "txHash": "0x232d9aabf3568649647cb32a9dd2f01efd2eac6b3fd3e7203e6bc5c6f7aaa063"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xec6d36a487d85cf562b7b8464ce8dc60637362ac",
+      "id": "0xb671de627e3432a158e61452cd072a4b65fa39f5702ef2fdf1db0c0f52979add-94",
+      "note": "OGs",
+      "timestamp": "1638401082",
+      "txHash": "0xb671de627e3432a158e61452cd072a4b65fa39f5702ef2fdf1db0c0f52979add"
+    },
+    {
+      "amount": "10000000000000000000",
+      "beneficiary": "0x7a9fe22691c811ea339d9b73150e6911a5343dca",
+      "id": "0x73e744de85e932da6b8c6965156b2029af85f71c7edff99ecd1c563a8dd70cc3-101",
+      "note": null,
+      "timestamp": "1638400802",
+      "txHash": "0x73e744de85e932da6b8c6965156b2029af85f71c7edff99ecd1c563a8dd70cc3"
+    },
+    {
+      "amount": "5000000000000000",
+      "beneficiary": "0x93c8c0c61b05a447a97f4a73c2cf1375ca2fb82b",
+      "id": "0x463c143fc1df7307801d0769d2b09bc0d9791a36a4478b83e824153890e6c514-364",
+      "note": "here is to the future and those who will come after... https://jbx.mypinata.cloud/ipfs/QmR8hpPze36pGGrxbRW9Xff5TwK4gzefsRKw1dZuQ5quBj",
+      "timestamp": "1638400305",
+      "txHash": "0x463c143fc1df7307801d0769d2b09bc0d9791a36a4478b83e824153890e6c514"
+    },
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x7fa36885403bb0b32aaf64d1cf250b28c2045eb4",
+      "id": "0xc8c899bb84ef43d733ecacf483c4037406f0c288b05ba3d8707c78ba12a41bcb-265",
+      "note": "California",
+      "timestamp": "1638399018",
+      "txHash": "0xc8c899bb84ef43d733ecacf483c4037406f0c288b05ba3d8707c78ba12a41bcb"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x408027a9f302feb3de50859352ca3d91f6c22343",
+      "id": "0x84ba6b7aadd4f76db1c0e46f93f85ab9e4b6b4571e4e4d8684fa1c58d6b1b149-192",
+      "note": "Look into these EYEZ, get hypnotized....",
+      "timestamp": "1638398901",
+      "txHash": "0x84ba6b7aadd4f76db1c0e46f93f85ab9e4b6b4571e4e4d8684fa1c58d6b1b149"
+    },
+    {
+      "amount": "8737670000000000",
+      "beneficiary": "0x11da4ec982d29608d225f5f675ab84530bac44c4",
+      "id": "0x6da50b133d7fe2c62c955545975eee2bf58820a03bd0be62be4771821c902351-171",
+      "note": null,
+      "timestamp": "1638397621",
+      "txHash": "0x6da50b133d7fe2c62c955545975eee2bf58820a03bd0be62be4771821c902351"
+    },
+    {
+      "amount": "30000000000000000",
+      "beneficiary": "0xed22bb0106c24c7f6b4d8aae33639e1467061f64",
+      "id": "0x099a88680689a2d5b8ee7e8d633b6400894ae9910c3879f24e5a2ce4a261d839-488",
+      "note": null,
+      "timestamp": "1638393683",
+      "txHash": "0x099a88680689a2d5b8ee7e8d633b6400894ae9910c3879f24e5a2ce4a261d839"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x9a42fd7473951800aa9889c20ddf4ed46f34a5b4",
+      "id": "0x9c917ae2ae09639ed3e3d8a8a61deaa31d16ed6c9886410705b19f7d8b6cdfab-496",
+      "note": null,
+      "timestamp": "1638376858",
+      "txHash": "0x9c917ae2ae09639ed3e3d8a8a61deaa31d16ed6c9886410705b19f7d8b6cdfab"
+    },
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0xb5722fbe442d2289d101c440effb9361a71e5d45",
+      "id": "0x16b159c3f821ae5b16e9899a8d74c7940c7c53bc535c3072c317c3314953972f-613",
+      "note": "FOR THE BLOCK!!! LFGO!!!  https://jbx.mypinata.cloud/ipfs/QmXNNLdF4AqP1qiky5PoZL1M1SLbBmNgsPwK1ScLZJK2Wt",
+      "timestamp": "1638373659",
+      "txHash": "0x16b159c3f821ae5b16e9899a8d74c7940c7c53bc535c3072c317c3314953972f"
+    },
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0xbcd308723ac7849ce9037c23e8278fdb4c06a7ee",
+      "id": "0x7b199c176d8f33629ae51f6b4b37faf5f8eafaf589be16a3be494e2610deb4b6-346",
+      "note": null,
+      "timestamp": "1638371066",
+      "txHash": "0x7b199c176d8f33629ae51f6b4b37faf5f8eafaf589be16a3be494e2610deb4b6"
+    },
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0x706c406b654fb0e3b4fed584925c735c6892d098",
+      "id": "0xfb21817f2162738cc045fb88133052bcb8297c92361578345fe781d8da1f2be9-352",
+      "note": "SNOOP DOGG",
+      "timestamp": "1638363496",
+      "txHash": "0xfb21817f2162738cc045fb88133052bcb8297c92361578345fe781d8da1f2be9"
+    },
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x72ecf23b87923a7cfc167e6089b0ff4ebca8f69b",
+      "id": "0x355e72f3f77cceae23a0d3471ef387f4c49e029a0660993c0d43120a44c9016d-138",
+      "note": null,
+      "timestamp": "1638351292",
+      "txHash": "0x355e72f3f77cceae23a0d3471ef387f4c49e029a0660993c0d43120a44c9016d"
+    },
     {
       "amount": "80000000000000000",
       "beneficiary": "0x51601564ca0e4a2dd1049af22918e2556189fd8f",

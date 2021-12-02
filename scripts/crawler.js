@@ -21,13 +21,13 @@ const headers = {
 };
 
 function parseEther(eth) {
-  console.log('parseEther', eth);
+  // console.log('parseEther', eth);
   let value = eth.trim();
   if (value === '0') return '0';
   try {
     value = value.replace(/,/g, '');
     const result = utils.parseEther(value);
-    console.log(eth, '=>', result.toString());
+    // console.log(eth, '=>', result.toString());
     return result.toString();
   } catch (e) {
     return '0';
@@ -82,7 +82,7 @@ async function crawl(juiceId) {
   const contentEl = await page.$('.ant-layout-content');
   const content = await contentEl.evaluate((el) => el.textContent);
   if (content.toLowerCase().trim().endsWith('not found')) {
-    console.log(`Project ${juiceId} not found`);
+    console.log(`>> Project ${juiceId} not found`);
     notFoundList.push(juiceId);
     return null;
   }
@@ -104,9 +104,6 @@ async function crawl(juiceId) {
   });
 
   const summaryEl = await page.$('.ant-row-bottom');
-  const summaryText = await summaryEl.evaluate((el) => el.textContent.toLowerCase());
-
-  console.assert(summaryText.includes('overflow'), `Can not found "overflow" in ${juiceId}`);
 
   // wait for jbx in wallet fetched
   await page.waitForTimeout(5000);
@@ -348,7 +345,6 @@ async function crawlPeopleTokens(page) {
     address,
     ...result,
   };
-  console.log({ finalResult });
 
   return finalResult;
 }
@@ -390,7 +386,8 @@ async function crawlProjects() {
   await launchBrowser();
   for (let i = 0; i < projects.length; ++i) {
     try {
-      await wait(1000);
+      console.log('Crawling', projects[i]);
+      await wait(10);
       let info = await fetchInfo(
         `https://jbx.mypinata.cloud/ipfs/${projects[i].uri}`,
         projects[i].uri,
@@ -422,20 +419,26 @@ async function crawlProjects() {
         } catch (err) {
           console.log(`Failed to crawl ${juiceboxId}`, err);
         }
+        const [payEvents, redeemEvents, withdrawEvents, reservesEvents] = await Promise.all([
+          crawlPayEvents(combined.id),
+          crawlRedeemEvents(combined.id),
+          crawlWithdrawEvents(combined.id),
+          crawlReservesEvents(combined.id),
+        ]);
         Object.assign(combined, {
-          payEvents: await crawlPayEvents(combined.id),
-          redeemEvents: await crawlRedeemEvents(combined.id),
-          withdrawEvents: await crawlWithdrawEvents(combined.id),
-          reservesEvents: await crawlReservesEvents(combined.id),
+          payEvents,
+          redeemEvents,
+          withdrawEvents,
+          reservesEvents,
         });
+        data.push(combined);
         fs.writeFile(
           `./development/com.maskbook.dao-${twitter_handler}.json`,
           JSON.stringify(combined, null, 2),
         );
-        data.push(combined);
       }
     } catch (err) {
-      console.log(err);
+      console.log(`Failed to crawl ${projects[i]}`, err);
     }
   }
   await closeBrowesr();

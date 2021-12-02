@@ -28,12 +28,12 @@
     }
   ],
   "inWallet": {
-    "eth": "1590000000000000000",
+    "eth": "1540000000000000000",
     "jbx": "0"
   },
   "jbx": "0",
   "tokenAddress": "0x07B68e17D3253cBcFC1520f1B1E8ef75B0d1f6d2",
-  "totalSupply": "3522897",
+  "totalSupply": "3522896",
   "payEvents": [
     {
       "amount": "2000000000000000000",

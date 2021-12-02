@@ -33,6 +33,9 @@ const twitterIdMap = {
   merge_dao: 'mergedao',
   shawnmeluni: 'translatordao',
   '0xshibboleth': 'hanukkahdao',
+  thetangdao: 'tangdao',
+  thegrantsdao: 'grantsdao',
+  nftafrika: 'projectnftafrica',
 };
 
 module.exports = {
