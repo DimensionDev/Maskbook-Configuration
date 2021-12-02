@@ -28,9 +28,9 @@
     "eth": "190000000000000000",
     "jbx": "0"
   },
-  "jbx": "0",
   "tokenAddress": "0x55654375e56b4474a572c137b42F10993296FC0a",
   "totalSupply": "25754558",
+  "holdingSymbol": "EYEZ",
   "payEvents": [
     {
       "amount": "60000000000000000",

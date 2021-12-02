@@ -31,9 +31,9 @@
     "eth": "270000000000000000",
     "jbx": "0"
   },
-  "jbx": "0",
   "tokenAddress": "0xB28c298D04Fdc36A1d01565301a43A21FCd7bC53",
   "totalSupply": "6800000",
+  "holdingSymbol": "TANG",
   "payEvents": [
     {
       "amount": "100000000000000000",

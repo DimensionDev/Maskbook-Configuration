@@ -229,7 +229,11 @@ async function crawl(juiceId) {
     { toETHSymbol: 'PEOPLE' },
   );
 
-  const { address: tokenAddress, totalSupply } = (await crawlPeopleTokens(page)) ?? {};
+  const {
+    address: tokenAddress,
+    holdingSymbol,
+    totalSupply,
+  } = (await crawlHoldingTokens(page)) ?? {};
 
   await page.close();
   return {
@@ -243,6 +247,7 @@ async function crawl(juiceId) {
     fundingCycles: [fundingCycle],
     tokenAddress,
     totalSupply,
+    holdingSymbol,
     // strategy,
     // strategyDescription,
   };
@@ -304,26 +309,31 @@ async function crawlReservesEvents(projectId) {
   return events;
 }
 
-async function crawlPeopleTokens(page) {
-  const sectionEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[2]/div/div',
+async function crawlHoldingTokens(page) {
+  const sectionEl = await page.$(
+    '.ant-layout-content .ant-row:nth-of-type(3) > .ant-col:nth-child(1) > div:nth-child(2)',
   );
 
-  if (!sectionEl[0]) return null;
+  if (!sectionEl) return null;
+  const holdingSymbol = await sectionEl.evaluate((el) => {
+    return el
+      .querySelector('[aria-label=info-circle]')
+      ?.previousElementSibling.textContent.split(' ')[0];
+  });
   const addressEl = await page.$x(
     '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[2]/div/div/div/div/div[2]/div/div/table/tbody/tr[1]/td/div/span[2]/div/span',
   );
   let address = null;
   if (addressEl[0]) {
     await addressEl[0].hover();
-    await page.waitForSelector('.ant-tooltip');
+    await page.waitForSelector('.ant-tooltip-open');
     await page.waitForTimeout(300);
     const tooltipEl = await page.$('.ant-tooltip');
     address = await tooltipEl.evaluate((el) => el.textContent.trim());
   } else {
     console.log('No address element');
   }
-  const result = await sectionEl[0].evaluate((secEl) => {
+  const result = await sectionEl.evaluate((secEl) => {
     const cells = [...secEl.querySelectorAll('.ant-descriptions-item')];
     return (
       cells.reduce((map, cell) => {
@@ -343,6 +353,7 @@ async function crawlPeopleTokens(page) {
   });
   const finalResult = {
     address,
+    holdingSymbol,
     ...result,
   };
 
@@ -386,7 +397,7 @@ async function crawlProjects() {
   await launchBrowser();
   for (let i = 0; i < projects.length; ++i) {
     try {
-      console.log('Crawling', projects[i]);
+      console.log('Crawling', projects[i].id);
       await wait(10);
       let info = await fetchInfo(
         `https://jbx.mypinata.cloud/ipfs/${projects[i].uri}`,
@@ -411,9 +422,9 @@ async function crawlProjects() {
               // strategy: dataInPage.strategy,
               // strategyDescription: dataInPage.strategyDescription,
               inWallet: dataInPage.inWallet,
-              jbx: dataInPage.jbx,
               tokenAddress: dataInPage.tokenAddress,
               totalSupply: dataInPage.totalSupply,
+              holdingSymbol: dataInPage.holdingSymbol,
             });
           }
         } catch (err) {

@@ -35,9 +35,9 @@
     "eth": "0",
     "jbx": "0"
   },
-  "jbx": "0",
   "tokenAddress": "0x0d3849F5864c3a7C4dB4C9C4cF3CB6434b593EBF",
   "totalSupply": "4441000",
+  "holdingSymbol": "ANGELS",
   "payEvents": [
     {
       "amount": "100000000000000000",

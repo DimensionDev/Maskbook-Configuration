@@ -1,10 +1,10 @@
 {
   "createdAt": "1638415848",
   "creator": "0x07cbd4e4473140b6078aa987907aaff5e500b9f1",
-  "currentBalance": "10000000000000000",
+  "currentBalance": "572069000000000000",
   "handle": "0x6d6567616d7574616e7464616f00000000000000000000000000000000000000",
   "id": "127",
-  "totalPaid": "10000000000000000",
+  "totalPaid": "572069000000000000",
   "totalRedeemed": "0",
   "uri": "QmQr5odGuxZN8LyqPzbgy1fXryjkhvmhMjSAZLVDjTprCQ",
   "name": "MegaMutantDAO",
@@ -34,10 +34,34 @@
     "eth": "990000000000000000",
     "jbx": "0"
   },
-  "jbx": "0",
   "tokenAddress": null,
-  "totalSupply": "390000",
+  "totalSupply": "572069",
+  "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "70000000000000000",
+      "beneficiary": "0xc9464b8f40c8c1bcbee59959e581627e5ef1e654",
+      "id": "0x49c5a53a9db89cd310a0d35b4e228d053ab41a1699b6b65eefd3073de82ab888-149",
+      "note": "larfboyscapital",
+      "timestamp": "1638418913",
+      "txHash": "0x49c5a53a9db89cd310a0d35b4e228d053ab41a1699b6b65eefd3073de82ab888"
+    },
+    {
+      "amount": "42069000000000000",
+      "beneficiary": "0xcf41cd6c06bb1e78e6d0dec4c696b9a483d41561",
+      "id": "0xf5ab9054efd736e8d19921ee24d112ef33576e2384087ea547e68b6cf8eab06e-174",
+      "note": "🦧",
+      "timestamp": "1638417609",
+      "txHash": "0xf5ab9054efd736e8d19921ee24d112ef33576e2384087ea547e68b6cf8eab06e"
+    },
+    {
+      "amount": "70000000000000000",
+      "beneficiary": "0x1cf39cb56d3f57ffa194adcf06ad9696063026a8",
+      "id": "0xe79a45cefd05f4f675c2e6a8e8679a45a4bceb803e031e4f46bb9386ad504420-557",
+      "note": null,
+      "timestamp": "1638417563",
+      "txHash": "0xe79a45cefd05f4f675c2e6a8e8679a45a4bceb803e031e4f46bb9386ad504420"
+    },
     {
       "amount": "380000000000000000",
       "beneficiary": "0x07cbd4e4473140b6078aa987907aaff5e500b9f1",

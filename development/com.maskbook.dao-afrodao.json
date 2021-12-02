@@ -31,9 +31,9 @@
     "eth": "40000000000000000",
     "jbx": "0"
   },
-  "jbx": "0",
   "tokenAddress": null,
   "totalSupply": "220319",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "10319080000000000",
