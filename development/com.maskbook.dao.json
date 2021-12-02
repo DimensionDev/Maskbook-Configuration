@@ -2,11 +2,11 @@
   {
     "createdAt": "1636939918",
     "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-    "currentBalance": "5153045240341320652430",
+    "currentBalance": "5152815173016706954331",
     "handle": "0x636f6e737469747574696f6e64616f0000000000000000000000000000000000",
     "id": "36",
     "totalPaid": "11610730690822406769962",
-    "totalRedeemed": "6448567879814114879164",
+    "totalRedeemed": "6448797947138728577263",
     "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
     "name": "ConstitutionDAO",
     "infoUri": "https://constitutiondao.com",
@@ -35,7 +35,7 @@
       "jbx": "0"
     },
     "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-    "totalSupply": "5151537304",
+    "totalSupply": "5151307304",
     "holdingSymbol": "PEOPLE",
     "payEvents": [
       {
@@ -441,6 +441,14 @@
     ],
     "redeemEvents": [
       {
+        "amount": "230000000000000000000000",
+        "beneficiary": "0x16cbc03835a62a86f9c8e74465566b49522e8777",
+        "id": "0x95dbb98858f09378f9b95d1b5cefdbb181df78f0bd87bdf4946863a3a1b1aaf8-177",
+        "returnAmount": "230067324613698099",
+        "timestamp": "1638420570",
+        "txHash": "0x95dbb98858f09378f9b95d1b5cefdbb181df78f0bd87bdf4946863a3a1b1aaf8"
+      },
+      {
         "amount": "5000000000000000000000",
         "beneficiary": "0x33d5a8a333172e0360b884b17e3b034734667011",
         "id": "0xd9b08e0087e98fcf33d537894e7d7022a318a8462f22b35826ef54c58bb9b03d-200",
@@ -831,14 +839,6 @@
         "returnAmount": "20005818812356142",
         "timestamp": "1638251179",
         "txHash": "0x8e0f3632e7e0f508a6bf1f8fdc051c1da4af9ff64070fd9306dd8a4305fb0cc0"
-      },
-      {
-        "amount": "23631160000000000000000",
-        "beneficiary": "0xb39226bfaaa6dd2f156ab0b0988131068e42c070",
-        "id": "0x8ab2914e30e8a9da9e35338e4770a40fcd355cf2b8b19489730f8974167787a9-376",
-        "returnAmount": "23638035264289899",
-        "timestamp": "1638250180",
-        "txHash": "0x8ab2914e30e8a9da9e35338e4770a40fcd355cf2b8b19489730f8974167787a9"
       }
     ],
     "withdrawEvents": [
@@ -1397,7 +1397,7 @@
     ],
     "inWallet": {
       "eth": "14940000000000000000",
-      "jbx": "206083547000000000000000000"
+      "jbx": "0"
     },
     "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
     "totalSupply": "2356244222",
@@ -3884,7 +3884,7 @@
     ],
     "inWallet": {
       "eth": "1710000000000000000",
-      "jbx": "0"
+      "jbx": "393581000000000000000000"
     },
     "tokenAddress": "0x2C4d4B06eb217af6420E326Cf2600C2673e7CaBC",
     "totalSupply": "111241369",
@@ -5225,10 +5225,10 @@
   {
     "createdAt": "1638310299",
     "creator": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
-    "currentBalance": "44554073431000000000",
+    "currentBalance": "44654073431000000000",
     "handle": "0x6d6572676564616f000000000000000000000000000000000000000000000000",
     "id": "120",
-    "totalPaid": "44564073431000000000",
+    "totalPaid": "44664073431000000000",
     "totalRedeemed": "0",
     "uri": "QmUwk2MrXTokETjJxJwZ4wi4AnwWBPigLjHngYFqsbxyvE",
     "name": "Merge DAO",
@@ -5254,9 +5254,17 @@
       "jbx": "0"
     },
     "tokenAddress": "0xD746bE8BEAca7E636DBAf22492075F1CC42471C1",
-    "totalSupply": "44564073",
+    "totalSupply": "44664073",
     "holdingSymbol": "MRGE",
     "payEvents": [
+      {
+        "amount": "100000000000000000",
+        "beneficiary": "0x972937ce81a5435f60ede7af8f107826d5811e8c",
+        "id": "0xc378c33df691713c6b7b4594501a091932b4d7d34defdb2b915b50af029de8f1-455",
+        "note": "ask what you can do for your dao",
+        "timestamp": "1638419941",
+        "txHash": "0xc378c33df691713c6b7b4594501a091932b4d7d34defdb2b915b50af029de8f1"
+      },
       {
         "amount": "100000000000000000",
         "beneficiary": "0x0070f245c6aea2400b883c81f81f4f57ee505566",
@@ -5648,14 +5656,6 @@
         "note": "yummy https://jbx.mypinata.cloud/ipfs/QmbrMmtPvuUk8UQju4LgMybFixfVtCgAgu9dVnfQcFNZg3",
         "timestamp": "1638354156",
         "txHash": "0x4d13f66a0811146207b08c108b6839200058a415cb187bbe8c95b4d7b8928474"
-      },
-      {
-        "amount": "310000000000000000",
-        "beneficiary": "0x37e9bf6d4e3a3ff68b980ead8a448b5a8cce9897",
-        "id": "0xb82aaf2e99cc4d78030a2a70593d70ae89f87d475462692eb1b435b610e8a224-191",
-        "note": null,
-        "timestamp": "1638353643",
-        "txHash": "0xb82aaf2e99cc4d78030a2a70593d70ae89f87d475462692eb1b435b610e8a224"
       }
     ],
     "redeemEvents": [],
@@ -6075,10 +6075,10 @@
   {
     "createdAt": "1638286994",
     "creator": "0x7406df6af1d29a55eb9913255e22776641dab39f",
-    "currentBalance": "6800000000000000000",
+    "currentBalance": "7700000000000000000",
     "handle": "0x74616e6764616f00000000000000000000000000000000000000000000000000",
     "id": "118",
-    "totalPaid": "6800000000000000000",
+    "totalPaid": "7700000000000000000",
     "totalRedeemed": "0",
     "uri": "QmVrUPrcdK8dVbEmm6iMC4nTBCqRvh5iJUVMNZnhok7tjY",
     "name": "TANGDAO",
@@ -6106,9 +6106,17 @@
       "jbx": "0"
     },
     "tokenAddress": "0xB28c298D04Fdc36A1d01565301a43A21FCd7bC53",
-    "totalSupply": "6800000",
+    "totalSupply": "7700000",
     "holdingSymbol": "TANG",
     "payEvents": [
+      {
+        "amount": "900000000000000000",
+        "beneficiary": "0xb34a55c19d412086343abd33f59f810d690968d1",
+        "id": "0xed8e6cea7a9be3fb7d7d0dd2a9a2d2f0d5b34e96ba57b118eb662bac41757910-130",
+        "note": null,
+        "timestamp": "1638420140",
+        "txHash": "0xed8e6cea7a9be3fb7d7d0dd2a9a2d2f0d5b34e96ba57b118eb662bac41757910"
+      },
       {
         "amount": "100000000000000000",
         "beneficiary": "0x9ce07a82eaee12232661c824190ca7331f3c832f",
@@ -6648,7 +6656,7 @@
     ],
     "inWallet": {
       "eth": "600000000000000000",
-      "jbx": "0"
+      "jbx": "64481000000000000000000"
     },
     "tokenAddress": "0xb9A255D352308d3AB3a995c847d3c352498D580b",
     "totalSupply": "1000000",

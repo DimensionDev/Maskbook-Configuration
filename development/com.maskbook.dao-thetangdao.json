@@ -1,10 +1,10 @@
 {
   "createdAt": "1638286994",
   "creator": "0x7406df6af1d29a55eb9913255e22776641dab39f",
-  "currentBalance": "6800000000000000000",
+  "currentBalance": "7700000000000000000",
   "handle": "0x74616e6764616f00000000000000000000000000000000000000000000000000",
   "id": "118",
-  "totalPaid": "6800000000000000000",
+  "totalPaid": "7700000000000000000",
   "totalRedeemed": "0",
   "uri": "QmVrUPrcdK8dVbEmm6iMC4nTBCqRvh5iJUVMNZnhok7tjY",
   "name": "TANGDAO",
@@ -32,9 +32,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0xB28c298D04Fdc36A1d01565301a43A21FCd7bC53",
-  "totalSupply": "6800000",
+  "totalSupply": "7700000",
   "holdingSymbol": "TANG",
   "payEvents": [
+    {
+      "amount": "900000000000000000",
+      "beneficiary": "0xb34a55c19d412086343abd33f59f810d690968d1",
+      "id": "0xed8e6cea7a9be3fb7d7d0dd2a9a2d2f0d5b34e96ba57b118eb662bac41757910-130",
+      "note": null,
+      "timestamp": "1638420140",
+      "txHash": "0xed8e6cea7a9be3fb7d7d0dd2a9a2d2f0d5b34e96ba57b118eb662bac41757910"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x9ce07a82eaee12232661c824190ca7331f3c832f",

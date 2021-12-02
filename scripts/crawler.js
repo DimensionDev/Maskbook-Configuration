@@ -253,12 +253,13 @@ async function crawl(juiceId) {
   };
 }
 
+const eventLength = 50;
 async function crawlPayEvents(projectId) {
   const rsp = await fetch(
     'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
-      body: `{"query":"{ payEvents(first: 50, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary note timestamp txHash } }"}`,
+      body: `{"query":"{ payEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary note timestamp txHash } }"}`,
       method: 'POST',
     },
   );
@@ -272,7 +273,7 @@ async function crawlRedeemEvents(projectId) {
     'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
-      body: `{"query":"{ redeemEvents(first: 50, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary id returnAmount timestamp txHash } }"}`,
+      body: `{"query":"{ redeemEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary id returnAmount timestamp txHash } }"}`,
       method: 'POST',
     },
   );
@@ -286,7 +287,7 @@ async function crawlWithdrawEvents(projectId) {
     'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
-      body: `{"query":"{ tapEvents(first: 50, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id netTransferAmount fundingCycleId timestamp txHash beneficiary caller beneficiaryTransferAmount } }"}`,
+      body: `{"query":"{ tapEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id netTransferAmount fundingCycleId timestamp txHash beneficiary caller beneficiaryTransferAmount } }"}`,
       method: 'POST',
     },
   );
@@ -300,7 +301,7 @@ async function crawlReservesEvents(projectId) {
     'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
-      body: `{"query":"{ printReservesEvents(first: 50, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id id count beneficiary beneficiaryTicketAmount timestamp txHash caller } }"}`,
+      body: `{"query":"{ printReservesEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id id count beneficiary beneficiaryTicketAmount timestamp txHash caller } }"}`,
       method: 'POST',
     },
   );

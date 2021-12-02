@@ -1,10 +1,10 @@
 {
   "createdAt": "1638310299",
   "creator": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
-  "currentBalance": "44554073431000000000",
+  "currentBalance": "44654073431000000000",
   "handle": "0x6d6572676564616f000000000000000000000000000000000000000000000000",
   "id": "120",
-  "totalPaid": "44564073431000000000",
+  "totalPaid": "44664073431000000000",
   "totalRedeemed": "0",
   "uri": "QmUwk2MrXTokETjJxJwZ4wi4AnwWBPigLjHngYFqsbxyvE",
   "name": "Merge DAO",
@@ -30,9 +30,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0xD746bE8BEAca7E636DBAf22492075F1CC42471C1",
-  "totalSupply": "44564073",
+  "totalSupply": "44664073",
   "holdingSymbol": "MRGE",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x972937ce81a5435f60ede7af8f107826d5811e8c",
+      "id": "0xc378c33df691713c6b7b4594501a091932b4d7d34defdb2b915b50af029de8f1-455",
+      "note": "ask what you can do for your dao",
+      "timestamp": "1638419941",
+      "txHash": "0xc378c33df691713c6b7b4594501a091932b4d7d34defdb2b915b50af029de8f1"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x0070f245c6aea2400b883c81f81f4f57ee505566",
@@ -424,14 +432,6 @@
       "note": "yummy https://jbx.mypinata.cloud/ipfs/QmbrMmtPvuUk8UQju4LgMybFixfVtCgAgu9dVnfQcFNZg3",
       "timestamp": "1638354156",
       "txHash": "0x4d13f66a0811146207b08c108b6839200058a415cb187bbe8c95b4d7b8928474"
-    },
-    {
-      "amount": "310000000000000000",
-      "beneficiary": "0x37e9bf6d4e3a3ff68b980ead8a448b5a8cce9897",
-      "id": "0xb82aaf2e99cc4d78030a2a70593d70ae89f87d475462692eb1b435b610e8a224-191",
-      "note": null,
-      "timestamp": "1638353643",
-      "txHash": "0xb82aaf2e99cc4d78030a2a70593d70ae89f87d475462692eb1b435b610e8a224"
     }
   ],
   "redeemEvents": [],
