@@ -46,3 +46,4 @@ com.maskbook.[app]-[sub].json # Application Sub-Configuration
 | dao-wu              | https://configuration.r2d2.to/com.maskbook.dao-wu.json              |
 | trader              | https://configuration.r2d2.to/com.maskbook.trader.json              |
 | verified_nft        | https://configuration.r2d2.to/com.maskbook.verified_nft.json        |
+| whitelist           | https://configuration.r2d2.to/com.maskbook.whitelist.json           |
