@@ -1,4 +1,4 @@
-name: Crawl every hour
+name: Crawl dao data hourly
 
 on:
   schedule:
@@ -11,8 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          token: ${{ secrets.ADMIN_TOKEN }}
           fetch-depth: 100
           ref: master
+
       - uses: pnpm/action-setup@v2
         with:
           version: '6.23.1'
